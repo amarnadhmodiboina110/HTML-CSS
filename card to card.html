@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #div1{
+            width: 400px;
+            height: 350px;
+            background-color: aqua;
+            color: black;
+            text-align: center;
+        }
+        #div2{
+            width: 300px;
+            height: 220px;
+            background-color: brown;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            margin-left: 50px;
+        }
+         #div2{
+            position:relative;
+            animation-name: example;
+            animation-duration: 10s;
+            animation-direction: alternate;
+        }
+        @keyframes example{
+            from {left: 0px;}
+            to{left: 800px;}
+            
+        }
+       /* #div2:hover{
+            left: 800px;
+            position: relative;
+        }*/
+
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <h2>this is card 1</h2>
+    <div id="div2">
+        <p style="font-size: 20px;border-bottom:2px solid rgb(123, 0, 255) ; padding-left: 20px; padding-bottom: 10px;">heading</p>
+        <h2 style="margin-left: 20px; margin-right: 20px;">This is card 2</h2>
+        <p style="font-size: 19px;margin-left: 20px;line-height: 20px;margin-right: 20px;">Some quick example text to build on the card title and make up the card's content.</p>
+    </div>
+    </div>
+</body>
+</html>
